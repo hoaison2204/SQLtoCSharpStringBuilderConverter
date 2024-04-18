@@ -51,7 +51,7 @@ namespace SQLtoCSharpStringBuilder
                 }
                 else
                 {
-                    csharp.AppendLine($"sql.AppendLine(\"{line.TrimEnd()}\");");
+                    csharp.AppendLine($"sql.AppendLine($\"{line.TrimEnd()}\");");
                 }
             }
 
