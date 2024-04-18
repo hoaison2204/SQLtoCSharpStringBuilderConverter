@@ -28,9 +28,18 @@
                 Click="ConvertButton_Click"
                 HorizontalAlignment="Left"
                 IsEnabled="False"
-                Margin="10"
+                Margin="10,0"
                 Width="100">
             Convert
+        </Button>
+        <Button x:Name="btnClear"
+                Grid.Row="1"
+                Click="BtnClear_Click"
+                HorizontalAlignment="Left"
+                IsEnabled="False"
+                Margin="150,0"
+                Width="100">
+            Clear
         </Button>
         <TextBlock x:Name="txtCopyStatus"
                    Grid.Row="1"
@@ -43,7 +52,7 @@
                 Click="CopyToClipboardButton_Click"
                 HorizontalAlignment="Right"
                 IsEnabled="False"
-                Margin="10"
+                Margin="10,0"
                 Width="150">
             Copy to Clipboard
         </Button>

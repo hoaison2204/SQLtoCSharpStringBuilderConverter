@@ -30,6 +30,11 @@ namespace SQLtoCSharpStringBuilder
 
             btnCopyToClipboard.IsEnabled = true;
         }
+        private void BtnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtSqlInput.Text = "";
+            txtCSharpOutput.Text = "";
+        }
         private void CopyToClipboardButton_Click(object sender, RoutedEventArgs e)
         {
             Clipboard.SetText(txtCSharpOutput.Text, TextDataFormat.UnicodeText);
@@ -63,10 +68,12 @@ namespace SQLtoCSharpStringBuilder
             if (!string.IsNullOrWhiteSpace(txtSqlInput.Text))
             {
                 btnConvert.IsEnabled = true;
+                btnClear.IsEnabled = true;
             }
             else
             {
                 btnConvert.IsEnabled = false;
+                btnClear.IsEnabled = false;
             }
         }
 

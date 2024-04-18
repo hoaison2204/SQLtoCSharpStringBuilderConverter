@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hoais\\Downloads\\test\\SQLtoCSharpStringBuilder\\SQLtoCSharpStringBuilder.csproj": {}
+    "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hoais\\Downloads\\test\\SQLtoCSharpStringBuilder\\SQLtoCSharpStringBuilder.csproj": {
+    "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hoais\\Downloads\\test\\SQLtoCSharpStringBuilder\\SQLtoCSharpStringBuilder.csproj",
+        "projectUniqueName": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
         "projectName": "SQLtoCSharpStringBuilder",
-        "projectPath": "C:\\Users\\hoais\\Downloads\\test\\SQLtoCSharpStringBuilder\\SQLtoCSharpStringBuilder.csproj",
+        "projectPath": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
         "packagesPath": "C:\\Users\\hoais\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hoais\\Downloads\\test\\SQLtoCSharpStringBuilder\\obj\\",
+        "outputPath": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hoais\\AppData\\Roaming\\NuGet\\NuGet.Config",
