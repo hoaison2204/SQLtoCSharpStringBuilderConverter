@@ -20,6 +20,7 @@
                  Margin="10"
                  Name="txtSqlInput"
                  TextWrapping="Wrap"
+                 
                  VerticalScrollBarVisibility="Auto"
                  TextChanged="SqlTextBox_TextChanged" />
 
@@ -29,6 +30,7 @@
                 HorizontalAlignment="Left"
                 IsEnabled="False"
                 Margin="10,0"
+                Height="36"
                 Width="100">
             Convert
         </Button>
@@ -38,6 +40,7 @@
                 HorizontalAlignment="Left"
                 IsEnabled="False"
                 Margin="150,0"
+                Height="36"
                 Width="100">
             Clear
         </Button>
@@ -53,6 +56,7 @@
                 HorizontalAlignment="Right"
                 IsEnabled="False"
                 Margin="10,0"
+                Height="36"
                 Width="150">
             Copy to Clipboard
         </Button>

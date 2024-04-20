@@ -34,6 +34,7 @@ namespace SQLtoCSharpStringBuilder
         {
             txtSqlInput.Text = "";
             txtCSharpOutput.Text = "";
+            btnCopyToClipboard.IsEnabled = false;
         }
         private void CopyToClipboardButton_Click(object sender, RoutedEventArgs e)
         {
