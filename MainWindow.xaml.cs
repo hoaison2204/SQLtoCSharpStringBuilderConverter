@@ -36,6 +36,11 @@ namespace SQLtoCSharpStringBuilder
             txtCSharpOutput.Text = "";
             btnCopyToClipboard.IsEnabled = false;
         }
+        private void BtnPaste_Click(object sender, RoutedEventArgs e)
+        {
+            BtnClear_Click(sender, e);
+            txtSqlInput.Text = Clipboard.GetText();
+        }
         private void CopyToClipboardButton_Click(object sender, RoutedEventArgs e)
         {
             Clipboard.SetText(txtCSharpOutput.Text, TextDataFormat.UnicodeText);
@@ -46,7 +51,7 @@ namespace SQLtoCSharpStringBuilder
 
         private string ConvertSqlToCSharp(string sql)
         {
-            StringBuilder csharp = new StringBuilder();
+            StringBuilder csharp = new();
 
             string[] lines = sql.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
             foreach (string line in lines)

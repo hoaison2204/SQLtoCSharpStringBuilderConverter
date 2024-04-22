@@ -20,47 +20,51 @@
                  Margin="10"
                  Name="txtSqlInput"
                  TextWrapping="Wrap"
-                 
                  VerticalScrollBarVisibility="Auto"
                  TextChanged="SqlTextBox_TextChanged" />
-
-        <Button x:Name="btnConvert"
-                Grid.Row="1"
-                Click="ConvertButton_Click"
-                HorizontalAlignment="Left"
-                IsEnabled="False"
-                Margin="10,0"
-                Height="36"
-                Width="100">
-            Convert
-        </Button>
-        <Button x:Name="btnClear"
-                Grid.Row="1"
-                Click="BtnClear_Click"
-                HorizontalAlignment="Left"
-                IsEnabled="False"
-                Margin="150,0"
-                Height="36"
-                Width="100">
-            Clear
-        </Button>
-        <TextBlock x:Name="txtCopyStatus"
-                   Grid.Row="1"
-                   Foreground="Red"
-                   HorizontalAlignment="Center"
-                   Margin="10"
-                   Width="150" />
-        <Button x:Name="btnCopyToClipboard"
-                Grid.Row="1"
-                Click="CopyToClipboardButton_Click"
-                HorizontalAlignment="Right"
-                IsEnabled="False"
-                Margin="10,0"
-                Height="36"
-                Width="150">
-            Copy to Clipboard
-        </Button>
-
+        <DockPanel Grid.Row="1">
+            <Button x:Name="btnConvert"
+                    Click="ConvertButton_Click"
+                    HorizontalAlignment="Left"
+                    Margin="10, 0"
+                    IsEnabled="False"
+                    Height="36"
+                    Width="100">
+                Convert
+            </Button>
+            <Button x:Name="btnPaste"
+                    Click="BtnPaste_Click"
+                    HorizontalAlignment="Left"
+                    Margin="10, 0"
+                    Height="36"
+                    Width="100">
+                Paste
+            </Button>
+            <Button x:Name="btnClear"
+                    Click="BtnClear_Click"
+                    HorizontalAlignment="Left"
+                    IsEnabled="False"
+                    Height="36"
+                    Width="100">
+                Clear
+            </Button>
+            <TextBlock x:Name="txtCopyStatus"
+                       Grid.Row="1"
+                       Foreground="Red"
+                       HorizontalAlignment="Center"
+                       Margin="10"
+                       Width="150" />
+            <Button x:Name="btnCopyToClipboard"
+                    Grid.Row="1"
+                    Click="CopyToClipboardButton_Click"
+                    HorizontalAlignment="Right"
+                    IsEnabled="False"
+                    Margin="10,0"
+                    Height="36"
+                    Width="150">
+                Copy to Clipboard
+            </Button>
+        </DockPanel>
         <TextBox Grid.Row="2"
                  AcceptsReturn="True"
                  HorizontalScrollBarVisibility="Auto"
