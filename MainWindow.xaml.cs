@@ -40,6 +40,7 @@ namespace SQLtoCSharpStringBuilder
         {
             BtnClear_Click(sender, e);
             txtSqlInput.Text = Clipboard.GetText();
+            ConvertButton_Click(sender, e);
         }
         private void CopyToClipboardButton_Click(object sender, RoutedEventArgs e)
         {
@@ -53,16 +54,21 @@ namespace SQLtoCSharpStringBuilder
         {
             StringBuilder csharp = new();
 
-            string[] lines = sql.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+            string[] separators = ["\r\n", "\r", "\n"];
+            string[] lines = sql.Split(separators, StringSplitOptions.None);
             foreach (string line in lines)
             {
                 if (string.IsNullOrWhiteSpace(line))
                 {
                     csharp.AppendLine();
                 }
-                else
+                else if (line.Contains('{') || line.Contains('}'))
                 {
                     csharp.AppendLine($"sql.AppendLine($\"{line.TrimEnd()}\");");
+                }
+                else
+                {
+                    csharp.AppendLine($"sql.AppendLine(\"{line.TrimEnd()}\");");
                 }
             }
 

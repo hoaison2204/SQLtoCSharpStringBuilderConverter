@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {}
+    "C:\\DATA\\Project\\person\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {
+    "C:\\DATA\\Project\\person\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
+        "projectUniqueName": "C:\\DATA\\Project\\person\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
         "projectName": "SQLtoCSharpStringBuilder",
-        "projectPath": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
-        "packagesPath": "C:\\Users\\hoais\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hoais\\Downloads\\test\\New folder\\SQLtoCSharpStringBuilderConverter\\obj\\",
+        "projectPath": "C:\\DATA\\Project\\person\\SQLtoCSharpStringBuilderConverter\\SQLtoCSharpStringBuilder.csproj",
+        "packagesPath": "C:\\Users\\Sonnh\\.nuget\\packages\\",
+        "outputPath": "C:\\DATA\\Project\\person\\SQLtoCSharpStringBuilderConverter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hoais\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sonnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
